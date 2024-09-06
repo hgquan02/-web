@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+.text {
+    background-color: #f5938d;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    height: 30px;
+}
+
+.task-bar1 {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.task-bar1 li > a {
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.65);
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin-right: 7px;
+}
+.search{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    height: 75px;
+    display: none;
+    position: absolute;
+    left: 130px;
+}
+.search >  li > input{
+    width: 200px;
+    height: 36px;
+    border:1px solid rgba(45, 45, 45, 0.322); 
+}
+.search-btn{
+    background-color: rgba(6, 6, 6, 0.819);
+    border: rgba(17, 17, 17, 0.65);
+    width: 40px;
+    height: 35px;
+}
+.search-btn > i{
+    color: white;
+}
+.search-menu:hover .search{
+    display: block;
+    display: flex;
+}
+
+.task-bar1 li > i {
+    margin-right: 10px;
+}
+
+.hover {
+    position: relative;
+}
+
+.hover:hover + .menu1,
+.menu1:hover {
+    display: flex;
+}
+.menu1 {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 69px;
+    left: 160px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.bold{
+    font-weight: bold;
+}
+.task-bar1 a:hover {
+    color: rgba(17, 17, 17, 0.95);
+}
+
+.menu1 a:hover {
+    color: rgba(17, 17, 17, 0.95);
+}
+.task-bar2{
+    display: flex;
+}
+.task-bar2 li > a {
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.65);
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin-right: 7px;
+}
+.menu2{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 110px;
+    left: 160px;
+    background: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.task-bar2 a:hover {
+    color: rgba(17, 17, 17, 0.95);
+}
+.hover2:hover .menu2{
+    display: block;
+}
+.logo > a > img{
+    width: 200px;
+    height: 85px;
+}
+.logo{
+    position: absolute;
+    top: 35px;
+    left: 44%;
+}
+.right-taskbar{
+    display: flex;
+    position: absolute;
+    top: 64px;
+    right: 10%;
+}
+.right-taskbar>p{
+    margin-left: 10px;
+}
+.right-taskbar > p > a{
+    text-decoration: none;
+}
+.right-taskbar > p {
+    color:  rgba(17, 17, 17, 0.65);;
+}
+.hotline{
+    color: #f5938d;
+}.cart{
+    
+    color:  rgba(17, 17, 17, 0.65);;
+}
+.hotline:hover{
+    color: black;
+}
+.cart:hover{
+    color: black;
+}
+.line{
+    margin-top: -2px;
+    margin-left: 10px;
+    width: 1px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+
+.carousel {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carousel-item img {
+    height: 400px;
+    border-radius: 5px;
+    width: auto; 
+}
+
+.carousel-caption {
+    position: static;
+    z-index: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: auto;
+    bottom: 0;
+    transform: translateY(0);
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: 0.3s;
+
+}
+    .carousel-control-prev:hover .carousel-control-prev-icon,
+    .carousel-control-next:hover .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.136);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+}
+.carousel-control {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+.carousel {
+    position: relative;
+}
+.special-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.first-line > a > img{
+    width: 675px;
+    height: 343px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.first-line{
+    margin-left: 75px;
+}
+.second-line > a > img{
+    width: 320px;
+    height: 123px;
+    border-radius: 10px;
+    margin-right: 27px;
+}
+.second-line a {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+    box-shadow: 0.3s;
+}
+.second-line img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.second-line{
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.second-line a:hover img{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.text-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.text-line > a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+.container-daily{
+    margin-top: 40px;
+    border-radius: 50px;
+    width: 1380px;
+    height: 600px;
+    margin-left: 75px;
+    background: linear-gradient(to bottom right, pink, black , pink)
+}
+.pagination{
+    position: absolute;
+    left: 1240px;
+    top: -45px;
+}
+.pagination >li > a>  i{
+    color: black;
+}
+.page-item{
+    margin: 5px;
+}
+.pagination .page-link:hover {
+    background: pink;
+}
+.card{
+    margin-left: 20px;
+}
+.card > a > img {
+    height: 150px;
+}
+.wrap{
+    display: flex;
+    margin-top: 60px;
+}
+.text-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Roboto' , sans-serif;
+}
+.text-bottom a  {
+    text-decoration: none;
+    color: white;
+}
+
