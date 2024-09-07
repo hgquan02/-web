@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/523b9d0fd7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <footer class="footer">
+    <div class="grid">
+      <div class="grid-row-1">
+        <div class="footer-gr1">
+          <h2>ĐĂNG KÍ NHẬN THÔNG BÁO</h2>
+          <p>Chương trình khuyến mại | Hợp tác kinh doanh</p>
+        </div>
+        <div class="footer-gr2">
+          <button>Gửi</button>
+          <input type="text" value="Nhập email của bạn" id="footer-input"> 
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="grid">
+      <div class="grid-row-2">
+        <div class="grid-column-2">
+          <h3 class="footer-heading">Chăm sóc khách hàng</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="" class="footer-item-link">Chính sách đổi trả</a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">Chính sách bảo mật</a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">Thanh toán và giao nhận</a>
+            </li>
+          </ul>  
+        </div>
+        <div class="grid-column-2">
+          <h3 class="footer-heading">VỀ M.O.I COSMETICS</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="" class="footer-item-link">Giới thiệu</a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">Liên hệ</a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">Đăng kí đối tác</a>
+            </li> 
+          </ul>  
+        </div>
+        <div class="grid-column-2">
+          <h3 class="footer-heading">Theo dõi chúng tôi trên</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <i class="footer-item-icon fa-brands fa-facebook"></i>
+                Facebook
+              </a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <i class="footer-item-icon fa-brands fa-instagram"></i>
+                Instagram
+              </a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <i class="footer-item-icon fa-brands fa-tiktok"></i>
+                TikTok
+              </a>  
+            </li> 
+          </ul>  
+        </div>
+        <div class="grid-column-2">
+          <h3 class="footer-heading">PHƯƠNG THỨC THANH TOÁN</h3>
+          <ul>
+            <li class="footer-image">
+              <a href=""  class="footer-item-link">
+                <img src="https://cdn.haitrieu.com/wp-content/uploads/2022/10/Logo-MoMo-Square.png" alt="">
+              </a> 
+            </li>
+            <li  class="footer-image">
+              <a href=""  class="footer-item-link">
+                <img src="https://cdn.haitrieu.com/wp-content/uploads/2022/10/Logo-ZaloPay-Square.png" alt="">
+              </a>
+            </li>
+            <li  class="footer-image">
+              <a href=""  class="footer-item-link">
+                <img src="https://png.pngtree.com/png-vector/20210602/ourmid/pngtree-cash-on-delivery-cod-fast-car-with-flat-design-style-orange-png-image_3389487.jpg" alt="">
+              </a>  
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="grid-row">
+          <p class="footer-text">Bản quyền của CÔNG TY TNHH M.O.I COSMETICS.</p>
+        </div>
+      </div>  
+    </div>
+  </footer>
+
+  <style>
+    .footer{
+      padding-top: 16px;
+      border-top: 1px solid rgb(240, 169, 224);
+      background-color: #f3e2e5;
+    }
+    .footer-heading{
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    .grid {
+      width: 1200px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .grid-row-1{
+        display: flex;
+    }
+    #footer-input{
+      padding: 15px 10px;
+      width: 600px;
+      border-radius: 22px ;
+      border: 1px solid gray;
+      color: #737373;
+    }
+    .footer-gr1{
+      margin-left: 7%;
+    }
+    .footer-gr2{
+      margin-top: 30px;
+      margin-left: 140px;
+    }
+    .footer-gr2 button{
+      margin-right: 0px;
+      margin-left: 90%;
+      margin-top: 15px;
+      border: 1px solid #737373;
+      border-radius: 20px;
+      padding: 8px 15px;
+      cursor: pointer;
+      background-color: #f3e2e5;
+    }
+    .footer-gr2 input{
+      display: flex;
+      margin-top: -39px;
+    }
+    .grid-row-2{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -5px;
+      margin-right: -5px;   
+    }
+    .grid-column-2  {
+      padding-left: 5px;
+      padding-right: 5px;
+      width: 22%;
+      justify-content: space-evenly;
+    }
+    .footer-list {
+      padding-left: 0;
+      list-style: none;
+    }
+    .footer-item-link{
+      text-decoration: none;
+      font-size: 1rem;
+      color: #737373;
+      padding: 2px 0;
+      display: flex;
+      align-items: center;
+    }
+    .footer-image{
+      text-decoration: none;
+      display: inline-block;
+      margin-left: 15px;
+    }
+    .footer-item-link:hover{
+      color: var(--primary-color);
+    }
+    .footer-item-link:hover img{
+      color: var(--primary-color);
+      transform: scale(1.3);
+    }
+    .footer-item-icon{
+      font-size: 1.2rem;
+      margin: -1px 8px ;
+    }
+    .footer-image a img{
+      width: 30px;
+    }
+  </style>
+
+</body>
+</html>
