@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea924f"
+  },
+  "title": "Julyme - thương hiệu mỹ phẩm hương nước hoa đến từ Hàn Quốc",
+  "description": "Các dòng sản phẩm chăm sóc cơ thể của Julyme có đa dạng mùi hương và độ lưu hương trên cơ thể kéo dài từ 8 đến 12 giờ",
+  "thumbnail": "/Uploads/julyme.jpg",
+  "status": "active",
+  "position": 1,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea9250"
+  },
+  "title": "Thương hiệu White Repe cam kết bảo vệ làn da cho phụ nữ Việt",
+  "description": "White Repe đặt mục tiêu trở thành người bạn đồng hành để hoàn thiện vẻ đẹp bằng chính giá trị bên trong cho phụ nữ Việt ",
+  "thumbnail": "./Uploads/whiterepe.jpg",
+  "status": "active",
+  "position": 2,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea9251"
+  },
+  "title": "Những yếu tố giúp Skin1004 chinh phục khách hàng Việt",
+  "description": "Các sản phẩm Skin1004 đáp ứng tiêu chí lựa chọn mỹ phẩm của chị em như thành phần thiên nhiên, không gây kích ứng da",
+  "thumbnail": "./Uploads/skin1004.jpg",
+  "status": "active",
+  "position": 3,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea9252"
+  },
+  "title": "Thương hiệu mỹ phẩm Ayana ra mắt tại Việt Nam",
+  "description": "Ayana mong muốn sẽ trở thành người bạn đồng hành của phụ nữ Việt trong hành trình chăm sóc sắc đẹp",
+  "thumbnail": "./Uploads/ayana.jpg",
+  "status": "active",
+  "position": 4,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea9253"
+  },
+  "title": "Mỹ phẩm Placentor Vegetal chính thức phân phối tại Việt Nam",
+  "description": "Với sự xuất hiện của thương hiệu Placentor Vegetal, người dùng Việt Nam sẽ có thêm một sự lựa chọn khi mua các sản phẩm ",
+  "thumbnail": "./Uploads/placentor.png",
+  "status": "active",
+  "position": 5,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea9254"
+  },
+  "title": "The Saem ra mắt kem chống nắng xanh độc quyền tại Việt Nam",
+  "description": "Eco Earth Extra Cica là sản phẩm chiết xuất thiên nhiên, lành tính với ưu điểm là khả năng giữ ẩm, không bết dính",
+  "thumbnail": "./Uploads/saem.jpg",
+  "status": "active",
+  "position": 6,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dd9dd351dc7734d2ea9255"
+  },
+  "title": "Chanel Coco Noir Eau De",
+  "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+  "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+  "status": "active",
+  "position": 7,
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "66dda63451dc7734d2ea9265"
+  },
+  "title": "Wooden Bathroom Sink With Mirror",
+  "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+  "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png",
+  "status": "active",
+  "position": 8,
+  "deleted": false
+}]

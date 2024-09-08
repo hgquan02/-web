@@ -1,0 +1,38 @@
+extends ../../Layouts/defaut.pug 
+//- include ../../mixins/pagination.pug 
+
+block main 
+  .blog-footer
+    h1 Category Archives: Kiến thức chăm sóc da 
+  
+  .blog-body
+    .card-deck
+      each item, index in blog
+        if index % 2 === 0 && index !== 0
+          .card-deck
+        .card
+          a(href='')
+            img.card-img-top(src=item.thumbnail alt=item.title)
+          .card-body
+            a(href='')
+              h5.card-title #{item.title}
+            a(href='')
+              p.card-text #{item.description}
+            p.card-text [...]
+        
+
+
+
+    
+
+
+    
+    
+
+        
+
+
+
+
+      
+        
