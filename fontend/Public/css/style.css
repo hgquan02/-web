@@ -252,6 +252,7 @@ li {
 
 /* footer */
 .footer{
+  margin-top: 5%;
   padding-top: 16px;
   border-top: 1px solid rgb(240, 169, 224);
   background-color: #f3e2e5;
